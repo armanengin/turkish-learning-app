@@ -1,0 +1,149 @@
+.section {
+    margin-bottom: 2rem;
+}
+
+#turkishWord {
+    color: #2c3e50;
+    font-size: 2rem;
+}
+
+#englishTranslation {
+    color: #34495e;
+    font-size: 1.5rem;
+}
+
+#example {
+    font-style: italic;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.progress {
+    height: 25px;
+    border-radius: 15px;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#lessonContent {
+    white-space: pre-wrap;
+    line-height: 1.6;
+}
+
+.difficulty-badge {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+    margin-bottom: 0.5rem;
+}
+
+#videoSection {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#videoLink {
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+}
+
+.ratio-16x9 {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.ratio-16x9 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Popular Words Section */
+.category-tabs {
+    border-bottom: 2px solid #e9ecef;
+    margin-bottom: 2rem;
+}
+
+.nav-pills .nav-link {
+    color: #495057;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 1rem 1.5rem;
+    margin-right: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.nav-pills .nav-link.active {
+    color: #007bff;
+    background-color: transparent;
+    border-bottom: 3px solid #007bff;
+}
+
+.word-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.word-cards .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.word-cards .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.word-cards .card-title {
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+.word-cards .card-subtitle {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+.word-cards .badge {
+    padding: 0.5em 1em;
+    font-weight: 500;
+    font-size: 0.8rem;
+    border-radius: 20px;
+}
+
+.word-cards .card-text {
+    color: #34495e;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
